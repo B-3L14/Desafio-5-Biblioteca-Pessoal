@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Biblioteca Pessoal</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="icon" type="image/svg+xml" href="assets/img/logo.png" />
+  </head>
+  <body>
+    <header>
+      <img src="assets/img/logo.png" alt="Logo" style="height: 48px" />
+      <h1>Biblioteca Pessoal</h1>
+      <nav>
+        <a href="pages/search.html">Buscar</a> |
+        <a href="pages/shelf.html">Minha Estante</a>
+      </nav>
+    </header>
+
+    <main id="app">
+      <!-- Campo para nome do usuário -->
+      <section id="user-root" style="margin-bottom: 16px">
+        <label for="user-name">Seu nome:</label>
+        <input
+          id="user-name"
+          placeholder="Digite seu nome"
+          style="padding: 6px; margin-left: 8px"
+        />
+        <button id="save-user" class="button">Salvar</button>
+        <span
+          id="current-user"
+          style="margin-left: 12px; color: var(--muted)"
+        ></span>
+      </section>
+
+      <!-- Página principal: busca + estante ou menus -->
+      <section id="search-root"></section>
+      <section id="shelf-root"></section>
+    </main>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+/* global.css */
+:root {
+  --accent: #2b7a78;
+  --muted: #6b6b6b;
+}
+body {
+  padding: 16px;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+nav a {
+  color: var(--accent);
+  text-decoration: none;
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
