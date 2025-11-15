@@ -85,11 +85,11 @@ O desenvolvimento utiliza **HTML, CSS e JavaScript (ESModules)** — sem framewo
 
 ## Tecnologias Utilizadas
 
-HTML5  
-CSS3  
-JavaScript (ES6+)  
-Open Library API  
-LocalStorage para persistência dos dados
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript&logoColor=black&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Open Library API](https://img.shields.io/badge/Open%20Library%20API-REST-brightgreen?style=flat-square)](https://openlibrary.org/developers/api)
+[![LocalStorage](https://img.shields.io/badge/LocalStorage-Web%20Storage-orange?style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 
 ---
 
