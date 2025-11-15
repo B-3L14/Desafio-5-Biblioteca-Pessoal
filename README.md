@@ -170,3 +170,8 @@ Também é possível copiar/baixar o conteúdo do `localStorage` (chave `bibliot
 Funciona em navegadores modernos (Chrome, Edge, Firefox). Testado principalmente em Chrome/Edge.
 
 ---
+
+## Deploy online
+https://b-3l14.github.io/Desafio-5-Biblioteca-Pessoal/index.html
+
+---
