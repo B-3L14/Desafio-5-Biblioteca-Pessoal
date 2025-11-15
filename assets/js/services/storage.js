@@ -40,7 +40,6 @@ export function save(book) {
     loanStatus: book.loanStatus || "Emprestado",
     loanDate: book.loanDate || now,
     addedAt: now,
-    raw: book,
   };
   books.push(item);
   write(books);

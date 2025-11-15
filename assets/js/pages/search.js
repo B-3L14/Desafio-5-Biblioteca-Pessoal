@@ -4,8 +4,8 @@ import { renderBookCard } from "../components/renderBookCard.js";
 
 export function initSearch(root) {
   root.innerHTML = `
-    <div style="margin:16px 0;">
-      <input id="q" placeholder="Buscar por título, autor, ISBN" style="width:60%; padding:8px; font-size:16px;"> 
+    <div class="search-header">
+      <input id="q" placeholder="Buscar por título, autor, ISBN"> 
       <button id="btnSearch" class="button">Buscar</button>
     </div>
     <div id="results"></div>

@@ -16,11 +16,9 @@ export function initShelf(root) {
   sessionStorage.removeItem("overdue_loan_ids");
 
   root.innerHTML = `
-    <div style="display:flex;align-items:center;justify-content:space-between;gap:12px">
-      <h2 style="margin:0">Minha Estante</h2>
-      <div>
-        <button id="export-csv" class="button">Exportar CSV</button>
-      </div>
+    <div class="shelf-header">
+      <h2>Minha Estante</h2>
+      <button id="export-csv" class="button">Exportar CSV</button>
     </div>
     <div id="shelf-list"></div>
   `;

@@ -6,6 +6,7 @@ import {
   renew,
   daysUntilOverdue,
 } from "../services/storage.js";
+import { coverUrl } from "../api/openLibrary.js";
 import { notify } from "./notificationSystem.js";
 
 export function renderShelfItem(book) {
@@ -24,11 +25,7 @@ export function renderShelfItem(book) {
   }
 
   el.innerHTML = `
-    <img class="book-cover" src="${
-      book.cover_i
-        ? `https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`
-        : "../assets/img/placeholders/cover.png"
-    }" alt="Capa">
+    <img class="book-cover" src="${coverUrl(book.cover_i)}" alt="Capa">
     <div style="flex:1">
       <h4>${book.title}</h4>
       <p>${(book.authors || []).join(", ")}</p>
